@@ -1,0 +1,52 @@
+
+.trafficLightPageContainer {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
+
+
+.pedestrianLightContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #333;
+  padding: 15px 5px;
+  border-radius: 20px;
+  border: 6px solid #000;
+  margin: auto; 
+  width: 100px;
+}
+
+.light {
+  width: 80px;
+  height: 80px;
+  margin: 5px;
+  transition: opacity 0.3s ease;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+
+.buttonLight  {
+  background-color: rgb(253, 236, 2);
+  border: none;
+  border-radius: 50px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  margin-top: 20px;
+  padding: 10px;
+
+}
+
+.buttonLight:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}

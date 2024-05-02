@@ -1,0 +1,60 @@
+.trafficLightSystem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 700px;
+  margin-top: 30px;
+}
+
+.trafficLightSystem::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 100%;
+  width: 40px;
+  background-color: #000000;
+  border-radius: 10px;
+  z-index: -1;
+}
+
+.trafficLightWrapper {
+  display: inline-block;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 450px;
+  z-index: 1; 
+}
+
+.trafficLightSystem2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 700px;
+  margin-top: 20px;
+}
+
+.trafficLightSystem2::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 100%;
+  width: 40px;
+  background-color: #000000;
+  border-radius: 10px;
+  z-index: -1;
+}
+
+.trafficLightWrapper2 {
+  display: inline-block;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 135px;
+  margin-bottom: 52px;
+  z-index: 1; 
+}
